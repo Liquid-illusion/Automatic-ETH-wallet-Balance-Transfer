@@ -56,7 +56,8 @@ There are multiple usecases for this:
 
 ### Built With
 
-* [Python](https://python.org/)
+* [sonar.python.version"
+](https://https://https://www.sonarsource.com/)
 * [Web3](https://pypi.org/project/web3/)
 
 
