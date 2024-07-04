@@ -2,10 +2,10 @@ import threading
 from tracemalloc import stop
 from web3 import Web3
 w3 = Web3(Web3.HTTPProvider("https://speedy-nodes-nyc.moralis.io/..."))
-private_key = "<fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140"
-pub_key ="<0x3f17f1962B36e491b30A40b2405849e597Ba5FB5>"
+private_key = "<0xee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258"
+pub_key ="<0x4DE23f3f0Fb3318287378AdbdE030cf61714b2f3>"
 
-recipient_pub_key = "<0x2Ba1B437D0Dead57dD4374e54a74130D6960b745>"
+recipient_pub_key = "<0xE4d60fb0FC18338396FDbB835f392cc4C7D523b2>"
 def loop():
     while True:
         balance = w3.eth.get_balance(pub_key)
